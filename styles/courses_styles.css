@@ -787,6 +787,11 @@ section
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.card-body:hover
+{
+	background: #774e76;
+	cursor: pointer;
+}
 .card-title
 {
 	margin-top: 55px;

@@ -64,6 +64,11 @@ div
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.image
+{
+	width: 50px;
+	height: 50px;
+}
 ul
 {
 	list-style: none;
@@ -102,12 +107,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #774e76;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #774e76;
 }
 p a:hover::after
 {
@@ -115,13 +120,13 @@ p a:hover::after
 }
 ::selection
 {
-	background: #FFD266;
-	color: #C88E00;
+	background: #774e76;
+	color: #774e76;
 }
 p::selection
 {
-	background: #FFD266;
-	color: #C88E00;
+	background: #774e76;
+	color: #774e76;
 }
 h1{font-size: 36px;}
 h2{font-size: 22px;}
@@ -176,7 +181,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color: #774e76;
 }
 section
 {
@@ -371,7 +376,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #774e76;
 }
 
 /*********************************
@@ -382,7 +387,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #774e76;
 }
 .header_side img
 {
@@ -424,7 +429,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ffb606;
+	color: #774e76;
 }
 
 /*********************************
@@ -502,7 +507,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #774e76;
 }
 .menu_close_container
 {
@@ -549,7 +554,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #ffb606;
+	background: #774e76;
 }
 
 /*********************************
@@ -587,7 +592,7 @@ section
 }
 .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #774e76;
 }
 .menu_container.active .menu_social_container
 {
@@ -664,7 +669,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: #ffb606;
+	background: #774e76;
 	padding-top: 24px;
 	padding-bottom: 18px;
 	padding-left: 39px;
@@ -713,7 +718,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #774e76;
 }
 
 /*********************************
@@ -763,7 +768,7 @@ section
 }
 .button_color_1
 {
-	background: #ffb606;
+	background: #774e76;
 }
 .button_color_1 a
 {
@@ -780,11 +785,11 @@ section
 .button_line_1
 {
 	background: transparent;
-	border: solid 2px #ffb606;
+	border: solid 2px #774e76;
 }
 .button_line_1 a
 {
-	color: #ffb606;
+	color: #774e76;
 }
 .button_line_2
 {
@@ -859,12 +864,12 @@ section
 }
 .accordion.active
 {
-	background: #ffb606;
+	background: #774e76;
 	color: #FFFFFF;
 }
 .accordion:active
 {
-	background: #ffb606 !important;
+	background: #774e76 !important;
 	color: #FFFFFF;
 }
 .accordion::after
@@ -883,7 +888,7 @@ section
 	width: 62px;
 	height: 100%;
 	content: '+';
-	background: #ffb606;
+	background: #774e76;
 	font-size: 14px;
 	color: #FFFFFF;
 	font-weight: 500;
@@ -1001,7 +1006,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 500;
-	color: #ffb606;
+	color: #774e76;
 	line-height: 1;
 	margin-top: 41px;
 }
@@ -1085,7 +1090,7 @@ section
 }
 .footer_social .menu_social_item a i:hover
 {
-	color: #ffb606;
+	color: #774e76;
 }
 .footer_social .menu_social_item:last-child
 {
